@@ -1,4 +1,4 @@
-@param String name
+@param String animal
 
 <html lang="en">
 
@@ -7,9 +7,9 @@
 </head>
 <body>
 
-    @if(name.equals("dog"))
+    @if(animal.equals("dog"))
         This animal is a dog!
-    @elseif(name.equals("cat"))
+    @elseif(animal.equals("cat"))
         This animal is a cat!
     @else
         I don't know what animal this is!

@@ -11,7 +11,7 @@ public class Main {
         });
 
         app.get("/whatAnimal", ctx -> {
-            ctx.render("animal.jte", Collections.singletonMap("name", "dog"));
+            ctx.render("animal.jte", Collections.singletonMap("animal", "dog"));
         });
         
     }
