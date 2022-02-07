@@ -1,4 +1,4 @@
-## Javalin JTE if Statement
+## JTE if Statement
 ---
 ### Description
 In this lab, we will cover how to use if statements in JTE.
