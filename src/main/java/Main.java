@@ -13,6 +13,10 @@ public class Main {
         app.get("/whatAnimal", ctx -> {
             ctx.render("animal.jte", Collections.singletonMap("animal", "dog"));
         });
+
+        app.get("/temperature", ctx -> {
+            ctx.render("temperature.jte", Collections.singletonMap("temperature", 35));
+        });
         
     }
 }

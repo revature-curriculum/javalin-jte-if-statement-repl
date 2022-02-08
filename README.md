@@ -1,4 +1,4 @@
-## JTE if Statement
+## JTE if Statement Answer
 ---
 ### Description
 In this lab, we will cover how to use if statements in JTE.
